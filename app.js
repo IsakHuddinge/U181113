@@ -6,7 +6,7 @@ var app = express();
 var product = require('./routes/product.route');
 
 var mongoose = require('mongoose');
-var db_url = 'mongodb://admin:admin123@ds063789.mlab.com:63789/u181112'
+var db_url = 'mongodb://admin:admin123@ds261253.mlab.com:61253/u181113'
 mongoose.connect(db_url, {useNewUrlParser: true});
 mongoose.Promise=global.Promise;
 var db = mongoose.connection;
