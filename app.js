@@ -21,7 +21,12 @@ app.listen('4242', function(){
     console.log('Server up');
 })
 
+// for happy path
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/views/product.views.html');
     
 });
+
+
+
+
