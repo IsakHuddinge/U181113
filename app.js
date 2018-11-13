@@ -20,3 +20,8 @@ app.use('/products', product);
 app.listen('4242', function(){
     console.log('Server up');
 })
+
+app.get('/', function(req, res){
+    res.sendFile(__dirname + '/views/product.views.html');
+    
+});
